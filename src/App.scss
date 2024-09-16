@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background: url('./assets/images/staking_background.png') center center/cover no-repeat;
+}
+
+.staking{
+  top: 10%;
+  position: relative;
+}
+.farming{
+  top: 10%;
+  position: relative;
+}
+
+.loading-modal {
+  top: 8%;
+  position: relative;
+  display: flex;
+  background-color: #3ea5d1!important;
+  .loading-spinner {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.cutom-dropdown-item {
+  background-color: #119fc6;
+}
+
+.wrong-chain {
+  color: white;
+}
+
+.select-chain-modal {
+  top: 40%;
+  left: 40%;
+  position: fixed!important;
+  margin: auto!important;
+  width: 20%!important;
+  color: white!important;
+  background-color: #07a5de!important;
+  border-radius: 5%;
+}
+
+.chain-body-modal {
+  background-color: #18516f!important;
+}
+
+.icon-class {
+  width: 20%;
+  height: 10%;
+}
+
+.select-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; // Điều chỉnh khoảng cách giữa các component theo ý muốn
+}
